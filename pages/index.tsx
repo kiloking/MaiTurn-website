@@ -4,6 +4,7 @@ import cover from "../public/static/images/cover.jpg";
 import { motion } from "framer-motion";
 import { reels, actors } from "@/constants";
 import { Globe } from "lucide-react";
+import Head from "next/head";
 const roboto = Roboto({
   weight: ["400", "700", "900"],
   style: ["normal", "italic"],
@@ -14,6 +15,9 @@ const roboto = Roboto({
 export default function Home() {
   return (
     <main className={`  mx-auto ${roboto.className}`}>
+      <Head>
+        <title>MaiTurn</title>
+      </Head>
       <div className=" py-4 px-4 font-bold  text-2xl tracking-widest uppercase ">
         MaiTurn
       </div>
@@ -24,7 +28,7 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="text-4xl font-bold py-[3%] text-center"
         >
-          "Mai" and "Teng"
+          &quot;Mai&quot; and &quot;Teng&quot;
         </motion.div>
         <motion.div
           initial={{ opacity: 0 }}
@@ -133,10 +137,11 @@ export default function Home() {
           <div className="text-white/60">About MaiTurn</div>
         </div>
         <div className="text-base">
-          The company name was inspired by the Chinese characters "Mai" and
-          "Teng". "Mai (脈) " refers to connection, more specifically human
-          connection, which is paramount in all industries, while "Teng (騰)" is
-          dedicated to my late grandfather.
+          The company name was inspired by the Chinese characters
+          &quot;Mai&quot; and &quot;Teng&quot;. &quot;Mai (脈)&quot; refers to
+          connection, more specifically human connection, which is paramount in
+          all industries, while &quot;Teng (騰)&quot; is dedicated to my late
+          grandfather.
           <br />
           <br />
           Mai Teng/My Turn is a company specializing in casting in Taiwan, with
