@@ -144,13 +144,13 @@ export default function Home() {
           grandfather.
           <br />
           <br />
-          Mai Teng/My Turn is a company specializing in casting in Taiwan, with
+          Mai Teng/Mai Turn is a company specializing in casting in Taiwan, with
           over 20 years of casting experience for TV
           commercials/MVs/series/movies. More recently, we have expanded our
           business internationally, collaborating with companies in Japan,
           Singapore, and Malaysia. In addition to casting work, Ben, the CEO of
-          Mai Teng/My Turn, will be directly involved in production during 2024,
-          acting as executive producer and a member of co-production.
+          Mai Teng/Mai Turn, will be directly involved in production during
+          2024, acting as executive producer and a member of co-production.
         </div>
         <br />
         <div className=" pt-4 pb-2 border-b-0 border-black/10 mb-4">
