@@ -36,7 +36,7 @@ export default function Home() {
           transition={{ duration: 1 }}
           className="text-xl text-black/60 text-center"
         >
-          Mai Teng/My Turn is a company specializing in casting in Taiwan, with
+          Mai Teng/Mai Turn is a company specializing in casting in Taiwan, with
           over 20 years of casting experience for TV
           commercials/MVs/series/movies.
         </motion.div>
