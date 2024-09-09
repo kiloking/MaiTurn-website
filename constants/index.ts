@@ -93,46 +93,16 @@ export const reels = [
 
 export const actors = [
   {
-    name: "劉奕兒",
-    englishName: "Eugenie Liu",
-    imdbUrl: "https://m.imdb.com/name/nm8658823",
-    image: "a01.jpg",
-  },
-  {
-    name: "袁子芸",
-    englishName: "Sonia Yuan",
-    imdbUrl: "https://m.imdb.com/name/nm9880444",
-    image: "a02.jpg",
-  },
-  {
-    name: "張懷秋",
-    englishName: "Harry Chang",
-    imdbUrl: "https://m.imdb.com/name/nm3580247",
-    image: "a03.jpg",
-  },
-  {
-    name: "宋芸樺",
-    englishName: "Vivian Sung",
-    imdbUrl: "https://m.imdb.com/name/nm6718764",
-    image: "a04.jpg",
-  },
-  {
-    name: "紀培慧",
-    englishName: "Teresa Daley",
-    imdbUrl: "https://m.imdb.com/name/nm3632940",
-    image: "a05.jpg",
-  },
-  {
     name: "李淳",
     englishName: "Mason Lee",
     imdbUrl: "https://m.imdb.com/name/nm0497853",
     image: "a06.jpg",
   },
   {
-    name: "曾沛慈",
-    englishName: "Pets Tseng",
-    imdbUrl: "https://m.imdb.com/name/nm6628253",
-    image: "a07.jpg",
+    name: "張懷秋",
+    englishName: "Harry Chang",
+    imdbUrl: "https://m.imdb.com/name/nm3580247",
+    image: "a03.jpg",
   },
   {
     name: "周厚安",
@@ -145,12 +115,6 @@ export const actors = [
     englishName: "Rhydian Vaughan",
     imdbUrl: "https://m.imdb.com/name/nm3120546",
     image: "a09.jpg",
-  },
-  {
-    name: "古斌",
-    englishName: "Samuel Ku",
-    imdbUrl: "https://m.imdb.com/name/nm6084330",
-    image: "a10.jpg",
   },
   {
     name: "王陽明",
@@ -169,5 +133,43 @@ export const actors = [
     englishName: "Jen-Shuo Cheng",
     imdbUrl: "https://m.imdb.com/name/nm7144002",
     image: "a13.jpg",
+  },
+  {
+    name: "劉奕兒",
+    englishName: "Eugenie Liu",
+    imdbUrl: "https://m.imdb.com/name/nm8658823",
+    image: "a01.jpg",
+  },
+  {
+    name: "袁子芸",
+    englishName: "Sonia Yuan",
+    imdbUrl: "https://m.imdb.com/name/nm9880444",
+    image: "a02.jpg",
+  },
+  {
+    name: "曾沛慈",
+    englishName: "Pets Tseng",
+    imdbUrl: "https://m.imdb.com/name/nm6628253",
+    image: "a07.jpg",
+  },
+
+  {
+    name: "宋芸樺",
+    englishName: "Vivian Sung",
+    imdbUrl: "https://m.imdb.com/name/nm6718764",
+    image: "a04.jpg",
+  },
+  {
+    name: "紀培慧",
+    englishName: "Teresa Daley",
+    imdbUrl: "https://m.imdb.com/name/nm3632940",
+    image: "a05.jpg",
+  },
+
+  {
+    name: "古斌",
+    englishName: "Samuel Ku",
+    imdbUrl: "https://m.imdb.com/name/nm6084330",
+    image: "a10.jpg",
   },
 ];
