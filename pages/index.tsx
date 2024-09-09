@@ -132,32 +132,34 @@ export default function Home() {
         </div>
         etc...
       </section>
-      <section className=" p-4 bg-slate-900 text-white">
-        <div className=" pt-4 pb-2 border-b-0 border-black/10 mb-4">
-          <div className=" font-black text-4xl">About</div>
-          <div className="text-white/60">About MaiTurn</div>
-        </div>
-        <div className="text-base">
-          The company name was inspired by the Chinese characters
-          &quot;Mai&quot; and &quot;Teng&quot;. &quot;Mai (脈)&quot; refers to
-          connection, more specifically human connection, which is paramount in
-          all industries, while &quot;Teng (騰)&quot; is dedicated to my late
-          grandfather.
+      <section className=" p-4 bg-slate-900 text-white ">
+        <div className="lg:w-10/12 mx-auto">
+          <div className=" pt-4 pb-2 border-b-0 border-black/10 mb-4">
+            <div className=" font-black text-4xl">About</div>
+            <div className="text-white/60">About MaiTurn</div>
+          </div>
+          <div className="text-base">
+            The company name was inspired by the Chinese characters
+            &quot;Mai&quot; and &quot;Teng&quot;. &quot;Mai (脈)&quot; refers to
+            connection, more specifically human connection, which is paramount
+            in all industries, while &quot;Teng (騰)&quot; is dedicated to my
+            late grandfather.
+            <br />
+            <br />
+            Mai Teng/Mai Turn is a company specializing in casting in Taiwan,
+            with over 20 years of casting experience for TV
+            commercials/MVs/series/movies. More recently, we have expanded our
+            business internationally, collaborating with companies in Japan,
+            Singapore, and Malaysia. In addition to casting work, Ben, the CEO
+            of Mai Teng/Mai Turn, will be directly involved in production during
+            2024, acting as executive producer and a member of co-production.
+          </div>
           <br />
-          <br />
-          Mai Teng/Mai Turn is a company specializing in casting in Taiwan, with
-          over 20 years of casting experience for TV
-          commercials/MVs/series/movies. More recently, we have expanded our
-          business internationally, collaborating with companies in Japan,
-          Singapore, and Malaysia. In addition to casting work, Ben, the CEO of
-          Mai Teng/Mai Turn, will be directly involved in production during
-          2024, acting as executive producer and a member of co-production.
+          <div className=" pt-4 pb-2 border-b-0 border-black/10 mb-4">
+            <div className=" font-black text-4xl">Contact us</div>
+          </div>
+          <div className="text-base">Email : ko.benjamine@gmail.com</div>
         </div>
-        <br />
-        <div className=" pt-4 pb-2 border-b-0 border-black/10 mb-4">
-          <div className=" font-black text-4xl">Contact us</div>
-        </div>
-        <div className="text-base">Email : ko.benjamine@gmail.com</div>
       </section>
       <div className="bg-slate-800 text-white p-5">Copyright© 2024 MaiTurn</div>
     </main>
