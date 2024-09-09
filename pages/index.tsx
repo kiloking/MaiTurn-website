@@ -40,17 +40,17 @@ export default function Home() {
           over 20 years of casting experience for TV
           commercials/MVs/series/movies.
         </motion.div>
-        <div className="text-xl text-white/90 text-center rounded-full bg-gray-800 py-2 mt-6 ">
+        <div className="text-xl text-white/90 text-center rounded-full bg-gray-800 py-2 mt-6 lg:w-1/2 mx-auto ">
           <div>Contact us </div>
           ko.benjamine@gmail.com
         </div>
       </div>
-      <section className="my-2 p-4 0">
+      <section className="my-2 p-4 0 lg:w-10/12 mx-auto">
         <div className=" pt-4 pb-2 border-b-0 border-black/10 mb-4">
           <div className=" font-black text-4xl">Actors</div>
           <div className="text-black/60">Excellent actors to work with</div>
         </div>
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
           {actors.map((actor, index) => {
             return (
               <div
@@ -59,7 +59,7 @@ export default function Home() {
               >
                 <div className="flex flex-col items-center">
                   {actor.image && (
-                    <div className=" actorlist-image">
+                    <div className=" actorlist-image max-w-[317px]">
                       <Image
                         src={`https://pub-2bdb4285afd34c4c84a11cfb4da4f5ad.r2.dev/actors/${actor.image}`}
                         alt={actor.name}
@@ -81,12 +81,12 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="my-2 p-4 ">
+      <section className="my-2 p-4 lg:w-10/12 mx-auto">
         <div className=" pt-4 pb-2 border-b-0 border-black/10 mb-4">
           <div className=" font-black text-4xl">Showreels</div>
           <div className="text-black/60">Participate in the work</div>
         </div>
-        <div className="grid grid-cols-2 gap-8 ">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 ">
           {reels.slice(0, 4).map((reel, index) => {
             return (
               <div key={index} className="flex flex-col items-center group">
@@ -113,10 +113,11 @@ export default function Home() {
             );
           })}
         </div>
-        {reels.slice(4, 100).map((reel, index) => {
-          return (
-            <div key={index} className="flex flex-col items-start group">
+        <div className="flex flex-col  items-start group">
+          {reels.slice(4, 100).map((reel, index) => {
+            return (
               <a
+                key={index}
                 href={reel.url}
                 target="_blank"
                 rel="noreferrer"
@@ -126,9 +127,9 @@ export default function Home() {
                   {reel.title} ({reel.type})
                 </div>
               </a>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
         etc...
       </section>
       <section className=" p-4 bg-slate-900 text-white">
