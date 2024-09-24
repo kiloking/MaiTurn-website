@@ -86,7 +86,7 @@ export default function Home() {
           <div className=" font-black text-4xl">Showreels</div>
           <div className="text-black/60">Participate in the work</div>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 ">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {reels.slice(0, 4).map((reel, index) => {
             return (
               <div key={index} className="flex flex-col items-center group">
@@ -97,7 +97,7 @@ export default function Home() {
                   className="flex flex-col items-center"
                 >
                   {reel.image && (
-                    <div className="list-image">
+                    <div className=" overflow-hidden aspect-[9/12] rounded-lg  ">
                       <Image
                         src={`https://pub-2bdb4285afd34c4c84a11cfb4da4f5ad.r2.dev/${reel.image}`}
                         alt={reel.title}
@@ -107,13 +107,16 @@ export default function Home() {
                       />
                     </div>
                   )}
-                  <div className="text-base font-bold">{reel.title}</div>
+                  <div className="text-base font-bold text-center">
+                    <p> {reel.entitle} </p>
+                    <p> {reel.title}</p>
+                  </div>
                 </a>
               </div>
             );
           })}
         </div>
-        <div className="flex flex-col  items-start group">
+        <div className="flex flex-col  items-start group mt-3">
           {reels.slice(4, 100).map((reel, index) => {
             return (
               <a
@@ -123,14 +126,14 @@ export default function Home() {
                 rel="noreferrer"
                 className="flex flex-col items-center"
               >
-                <div className="text-base font-bold text-black/80">
-                  {reel.title} ({reel.type})
+                <div className="text-base  text-black/80">
+                  {reel.title} {reel.entitle} ({reel.type})
                 </div>
               </a>
             );
           })}
         </div>
-        etc...
+        <div className="text-base  text-black/80">etc...</div>
       </section>
       <section className=" p-4 bg-slate-900 text-white ">
         <div className="lg:w-10/12 mx-auto">
