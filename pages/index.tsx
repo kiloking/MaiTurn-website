@@ -48,7 +48,7 @@ export default function Home() {
       <section className="my-2 p-4 0 lg:w-10/12 mx-auto">
         <div className=" pt-4 pb-2 border-b-0 border-black/10 mb-4">
           <div className=" font-black text-4xl">Actors</div>
-          <div className="text-black/60">Excellent actors to work with</div>
+          <div className="text-black/60">Excellent talents to work with</div>
         </div>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
           {actors.map((actor, index) => {
