@@ -14,11 +14,11 @@ export const reels = [
     image: "r02.jpg",
   },
   {
-    title: "狂徒",
-    entitle: "The Scoundrels",
+    title: "角頭－大橋頭",
+    entitle: "GATAO: Like Father Like Son",
     type: "movie",
-    url: "https://m.imdb.com/title/tt9081774/?ref_=ext_shr_lnk",
-    image: "r03.jpg",
+    url: "https://www.imdb.com/title/tt32915791/",
+    image: "r16.jpg",
   },
   {
     title: "角頭2：王者再起",
@@ -26,6 +26,13 @@ export const reels = [
     type: "movie",
     url: "https://m.imdb.com/title/tt8324576/?ref_=ext_shr_lnk",
     image: "r04.jpg",
+  },
+  {
+    title: "狂徒",
+    entitle: "The Scoundrels",
+    type: "movie",
+    url: "https://m.imdb.com/title/tt9081774/?ref_=ext_shr_lnk",
+    image: "r03.jpg",
   },
   {
     title: "愛情算不算",
